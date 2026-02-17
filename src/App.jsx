@@ -1,16 +1,16 @@
 
-import './App.css'
-import Hero from './components/Hero'
+import React from 'react'
 import Home from './components/Home'
+import Hero from './components/Hero'
+import Catalog from './components/Catalog'
 
 function App() {
-
-
   return (
-    <>
-  <Home/>
-  <Hero/>
-    </>
+    <div>
+      <Home/>
+      <Hero/>
+      <Catalog/>
+    </div>
   )
 }
 
