@@ -1,0 +1,92 @@
+.header {
+  width: 100%;
+  background: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ===== LOGO ===== */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logoIcon {
+  font-size: 22px;
+}
+
+.logoText {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f17228;
+}
+
+/* ===== LOCATION ===== */
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #555;
+}
+
+.bold {
+  font-weight: 600;
+  color: #333;
+}
+
+.icon {
+  color: #f17228;
+}
+
+/* ===== RIGHT SIDE ===== */
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+
+.search:hover {
+  color: #f17228;
+}
+
+.loginBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  background: white;
+  color: #f17228;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.loginBtn:hover {
+  background: #f17228;
+  color: white;
+}
