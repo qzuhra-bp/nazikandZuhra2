@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Catalog.module.css"
-import { popularItems } from '../Data'
+import { featuredRestaurants, popularItems } from '../Data'
 function Catalog() {
   return (
       <div className="section">
@@ -18,7 +18,14 @@ function Catalog() {
        </div>
       ))}
       </div>
-
+      <div className={styles.Restaurant}>
+     {featuredRestaurants.map(rest=>(
+      <div>
+        <img src={rest.image} alt="" />
+        <h2>{rest.name}</h2>
+         <button>{rest.status}</button>
+      </div>
+     ))}</div>
     </div>
   )
 }
